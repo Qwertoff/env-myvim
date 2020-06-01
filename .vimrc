@@ -60,7 +60,7 @@ set background=dark
 " colorscheme settings
 let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_colors = { 'bg0': ['#000000', 0] }
-colorscheme gruvbox
+silent! colorscheme gruvbox
 let g:airline_theme='gruvbox' 
 
 set shell=/bin/zsh		" default shell
